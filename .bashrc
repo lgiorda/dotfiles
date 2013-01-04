@@ -22,7 +22,7 @@ prompt
 alias gfs='git fetch && git status'
 alias gs='git status'
 alias gp='git pull'
-alias gaa="git add -all"
+alias gaa="git add --all"
 # train tracks for git log
 alias gl="git log --graph --pretty=\"format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'\" --abbrev-commit --date=relative"
 alias master="git checkout master"
