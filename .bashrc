@@ -1,3 +1,10 @@
+# autocomplete for git in bash
+# curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+if [ ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+# source .bashrc
+
 # set cli input mode to vi
 set -o vi
 
@@ -42,6 +49,7 @@ function branch() {
   git checkout -b $1
 }
 
+BP=$HOME/projects/boilerplates
 PROJ=$HOME/projects
 UPS=$HOME/projects/ups-ipad-app
 GOOG=$HOME/projects/google-erepo
