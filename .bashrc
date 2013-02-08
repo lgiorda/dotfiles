@@ -54,5 +54,6 @@ PROJ=$HOME/projects
 UPS=$HOME/projects/ups-ipad-app
 GOOG=$HOME/projects/google-erepo
 NODE_PATH=$NODE_PATH:/usr/local/lib/jsctags
-PATH=$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/local/lib # Add RVM to PATH for scripting
+PLAY=$HOME/play-2.0.4/play
+PATH=$PATH:$HOME/.rvm/bin:/usr/local/bin:/usr/local/lib:$HOME/play-2.0.4 # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

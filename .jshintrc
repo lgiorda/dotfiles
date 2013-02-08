@@ -1,5 +1,6 @@
 {
     "predef": [
+        "Ember",
         "jasmine",
         "spyOn",
         "it",
@@ -11,6 +12,8 @@
         "waitsFor",
         "runs",
         "define",
+        "Backbone",
+        "_ns",
         "_"
     ],
 
