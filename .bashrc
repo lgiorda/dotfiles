@@ -1,3 +1,8 @@
+# brew install macvim
+if [ /usr/local/bin/mvim ]; then
+  alias vim='mvim -v'
+fi
+
 # autocomplete for git in bash
 # curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 if [ ~/.git-completion.bash ]; then
