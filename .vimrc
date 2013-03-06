@@ -93,6 +93,10 @@ Bundle 'honza/snipmate-snippets'
 Bundle 'bigfish/vim-js-beautify.git'
 Bundle 'ervandew/supertab'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'vim-scripts/ZoomWin.git'
+Bundle 'mileszs/ack.vim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'chrisbra/NrrwRgn'
 " Bundle 'garbas/vim-snipmate.git'
 "
 " File Browsing 
