@@ -45,7 +45,5 @@
     "sub": true,
     "strict": false,
     "laxcomma": true,
-    "smarttabs": false,
-    "indent": 2,
-    "white": false
+    "smarttabs": false
 }
